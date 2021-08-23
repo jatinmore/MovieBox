@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+.App {
+  /* font-family: sans-serif; */
+  font-family: "Rampart One", cursive;
+  text-align: center;
+}
+body {
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#description {
+  font-size: 1rem;
+}
+
+.cover img {
+  height: 12rem;
+  width: 9rem;
+  border: 2px solid orange;
+}
+
+#btn-gen {
+  padding: 0.5rem;
+  margin: 1rem;
+  align-items: center;
+  border-radius: 1rem;
+  width: 5rem;
+  cursor: pointer;
+}
